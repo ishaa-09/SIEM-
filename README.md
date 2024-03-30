@@ -7,6 +7,13 @@ I have generated the Logs after geenrating security events on Kali Linux Virtual
 <br>
 Now you can view the details of each log by clicking on three dots on top of that particular log.
 ![Screenshot (157)](https://github.com/ishaa-09/SIEM-/assets/123836464/70be8656-3caf-406f-8a0a-6a26bf152bab)
+<br>
+After analyzing log entries, we can view the entire SIEM conduct in graphic visualization form. Graphs are generated based on events.Graphic visualization setting is done to view the form of graphs.
+<br>
+Here are my graphical generated logs for security events taking place in Kali VM.
+<br>
+Also this graph shows no. of records per minute(based on time stamp) or different timestamps.
+
 
 
 
