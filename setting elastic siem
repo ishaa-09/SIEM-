@@ -1,1 +1,6 @@
-
+─(kali㉿kali)-[~]
+└─$ curl -L -O https://artifacts.elastic.co/downloads/beats/elastic-agent/elastic-agent-8.12.2-linux-x86_64.tar.gz
+tar xzvf elastic-agent-8.12.2-linux-x86_64.tar.gz
+cd elastic-agent-8.12.2-linux-x86_64
+sudo ./elastic-agent install --url=https://3e3cc1e6c86b47338179f730646aad60.fleet.us-central1.gcp.cloud.es.io:443 --enrollment-token=eUlOWmlZNEJ3ZHlScTN4ZkVxRkg6RHpnRWRPUXBSdFdKR3o1Y3BuNDRrUQ==
+ //generate your token from https://cloud.elastic.co/home
