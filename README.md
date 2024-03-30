@@ -14,7 +14,10 @@ Here are my graphical generated logs for security events taking place in Kali VM
 <br>
 Also this graph shows no. of records per minute(based on time stamp) or different timestamps.
 <br>
-
+![Screenshot (154)](https://github.com/ishaa-09/SIEM-/assets/123836464/c21efe79-1a0e-48ef-bb4f-b640043ad0ea)
+<br>
+Different Time interval<br>
+![Screenshot (155)](https://github.com/ishaa-09/SIEM-/assets/123836464/826bd37f-e7de-4a4d-a39c-40a31132b469)
 
 
 
