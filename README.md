@@ -4,5 +4,8 @@ Logs can be analyzed by going in Hamburger-menu/Observability/Logs
 <br>
 I have generated the Logs after geenrating security events on Kali Linux Virtual Machine.<br>
 ![Screenshot (158)](https://github.com/ishaa-09/SIEM-/assets/123836464/af3e50dd-9e1a-40dc-8098-34ebe786e2d5)
+<br>
+Now you can view the details of each log by clicking on three dots on top of that particular log.
+
 
 
