@@ -6,6 +6,7 @@ I have generated the Logs after geenrating security events on Kali Linux Virtual
 ![Screenshot (158)](https://github.com/ishaa-09/SIEM-/assets/123836464/af3e50dd-9e1a-40dc-8098-34ebe786e2d5)
 <br>
 Now you can view the details of each log by clicking on three dots on top of that particular log.
+![Screenshot (157)](https://github.com/ishaa-09/SIEM-/assets/123836464/70be8656-3caf-406f-8a0a-6a26bf152bab)
 
 
 
