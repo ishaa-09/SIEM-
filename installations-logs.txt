@@ -1,0 +1,1100 @@
+─(kali㉿kali)-[~]
+└─$ curl -L -O https://artifacts.elastic.co/downloads/beats/elastic-agent/elastic-agent-8.12.2-linux-x86_64.tar.gz
+tar xzvf elastic-agent-8.12.2-linux-x86_64.tar.gz
+cd elastic-agent-8.12.2-linux-x86_64
+sudo ./elastic-agent install --url=https://3e3cc1e6c86b47338179f730646aad60.fleet.us-central1.gcp.cloud.es.io:443 --enrollment-token=eUlOWmlZNEJ3ZHlScTN4ZkVxRkg6RHpnRWRPUXBSdFdKR3o1Y3BuNDRrUQ==
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0  552M    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0Warning: Failed to open the file elastic-agent-8.12.2-linux-x86_64.tar.gz: 
+Warning: Permission denied
+  0  552M    0  1319    0     0    460      0  14d 13h  0:00:02  14d 13h   460
+curl: (23) Failure writing output to destination
+elastic-agent-8.12.2-linux-x86_64/README.md
+tar: elastic-agent-8.12.2-linux-x86_64/README.md: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/elastic-agent.reference.yml
+tar: elastic-agent-8.12.2-linux-x86_64/elastic-agent.reference.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/elastic-agent.yml
+tar: elastic-agent-8.12.2-linux-x86_64/elastic-agent.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/LICENSE.txt
+tar: elastic-agent-8.12.2-linux-x86_64/LICENSE.txt: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/NOTICE.txt
+tar: elastic-agent-8.12.2-linux-x86_64/NOTICE.txt: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/.build_hash.txt
+tar: elastic-agent-8.12.2-linux-x86_64/.build_hash.txt: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/.build_hash.txt
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/.build_hash.txt: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/LICENSE.txt
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/LICENSE.txt: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/NOTICE.pf-elastic-collector.txt
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/NOTICE.pf-elastic-collector.txt: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/NOTICE.pf-elastic-symbolizer.txt
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/NOTICE.pf-elastic-symbolizer.txt: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/NOTICE.pf-host-agent.txt
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/NOTICE.pf-host-agent.txt: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/NOTICE.txt
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/NOTICE.txt: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/README.md
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/README.md: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/apm-server
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/apm-server: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/apm-server.spec.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/apm-server.spec.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/apm-server.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/apm-server.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/audit.rules.d/
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/audit.rules.d/sample-rules.conf.disabled
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/audit.rules.d/sample-rules.conf.disabled: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/auditbeat
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/audit.rules.d: Cannot utime: Operation not permitted
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/auditbeat: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/auditbeat.elastic-agent.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/auditbeat.elastic-agent.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/auditbeat.reference.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/auditbeat.reference.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/auditbeat.spec.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/auditbeat.spec.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/auditbeat.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/auditbeat.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/bundle.tar.gz
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/bundle.tar.gz: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/certs/
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/certs/certs.pem
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/certs/certs.pem: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/checksum.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/certs: Cannot utime: Operation not permitted
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/checksum.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/cloud-defend
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/cloud-defend: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/cloud-defend.spec.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/cloud-defend.spec.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/cloudbeat
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/cloudbeat: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/cloudbeat.spec.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/cloudbeat.spec.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/cloudbeat.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/cloudbeat.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/endpoint-security
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/endpoint-security: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/endpoint-security-resources.zip
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/endpoint-security-resources.zip: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/endpoint-security.spec.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/endpoint-security.spec.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/fields.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/fields.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/filebeat
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/filebeat: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/filebeat.reference.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/filebeat.reference.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/filebeat.spec.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/filebeat.spec.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/filebeat.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/filebeat.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/fleet-server
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/fleet-server: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/fleet-server.spec.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/fleet-server.spec.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/heartbeat
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/heartbeat: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/heartbeat.reference.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/heartbeat.reference.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/heartbeat.spec.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/heartbeat.spec.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/heartbeat.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/heartbeat.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/java-attacher.jar
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/java-attacher.jar: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/023d2930-f1a5-11e7-a9ef-93c69af7b129-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/023d2930-f1a5-11e7-a9ef-93c69af7b129-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/046212a0-a2a1-11e7-928f-5dbe6f6f5519-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/046212a0-a2a1-11e7-928f-5dbe6f6f5519-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/04b595b0-c1fc-11ea-8a94-61b423d19ae7.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/04b595b0-c1fc-11ea-8a94-61b423d19ae7.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/0836a4b0-47bd-11e8-bc13-1397384faad3-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/0836a4b0-47bd-11e8-bc13-1397384faad3-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/0b3dba40-f341-11ea-a3fd-1b45ec532bb3.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/0b3dba40-f341-11ea-a3fd-1b45ec532bb3.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/0d3f2380-fa78-11e6-ae9b-81e5311e8cab-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/0d3f2380-fa78-11e6-ae9b-81e5311e8cab-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/0eb5a6a0-694f-11ea-b0ac-95d4ecb1fecd.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/0eb5a6a0-694f-11ea-b0ac-95d4ecb1fecd.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/0f559cc0-f0d5-11e9-90ec-112a988266d5.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/0f559cc0-f0d5-11e9-90ec-112a988266d5.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/10efa340-32f8-11ea-a83e-25b8612d00cc.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/10efa340-32f8-11ea-a83e-25b8612d00cc.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/137c52f0-286a-11e9-9d21-0be348776e6c-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/137c52f0-286a-11e9-9d21-0be348776e6c-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/15503340-4488-11ea-ad63-791a5dc86f10.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/15503340-4488-11ea-ad63-791a5dc86f10.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/158be870-87f4-11e7-ad9c-db80de0bf8d3-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/158be870-87f4-11e7-ad9c-db80de0bf8d3-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/161855f0-ff6a-11e8-93c5-d5ecd1b3e307-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/161855f0-ff6a-11e8-93c5-d5ecd1b3e307-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/18d66970-1fb4-11e9-8a4d-eb34d2834f6b-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/18d66970-1fb4-11e9-8a4d-eb34d2834f6b-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/1a151f80-32db-11ea-a83e-25b8612d00cc.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/1a151f80-32db-11ea-a83e-25b8612d00cc.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/1ae960c0-f9f8-11eb-bc38-79936db7c106.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/1ae960c0-f9f8-11eb-bc38-79936db7c106.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/20dc7c50-2e89-11eb-991c-c5fd3b7f5a63.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/20dc7c50-2e89-11eb-991c-c5fd3b7f5a63.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/234aeda0-43b7-11e9-8697-530f39afc6eb.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/234aeda0-43b7-11e9-8697-530f39afc6eb.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/26309570-2419-11e7-a83b-d5f4cebac9ff-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/26309570-2419-11e7-a83b-d5f4cebac9ff-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/2713ee40-f3b1-11ea-ba07-c1efedbf0bf9.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/2713ee40-f3b1-11ea-ba07-c1efedbf0bf9.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/277876d0-fa2c-11e6-bbd3-29c986c96e5a-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/277876d0-fa2c-11e6-bbd3-29c986c96e5a-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/28969190-0511-11e9-9c60-d582a238e2c5-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/28969190-0511-11e9-9c60-d582a238e2c5-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/2a17f200-285e-11e9-805f-43bf57dfa519-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/2a17f200-285e-11e9-805f-43bf57dfa519-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/2b0fd7b0-feac-11ea-b032-d59f894a5072.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/2b0fd7b0-feac-11ea-b032-d59f894a5072.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/2be46cb0-27f2-11e9-89af-fd12d59dac90-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/2be46cb0-27f2-11e9-89af-fd12d59dac90-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/2c171500-858b-11ea-91bc-ab084c7ec0e7.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/2c171500-858b-11ea-91bc-ab084c7ec0e7.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/2ec26ce0-f5f1-11ec-8853-8b596bddf5f9.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/2ec26ce0-f5f1-11ec-8853-8b596bddf5f9.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/32fca290-f0af-11e7-b9ff-9f96241065de-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/32fca290-f0af-11e7-b9ff-9f96241065de-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/3367c170-921f-11e9-aa19-159bf182e06f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/3367c170-921f-11e9-aa19-159bf182e06f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/3560d580-aa34-11e8-9c06-877f0445e3e0-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/3560d580-aa34-11e8-9c06-877f0445e3e0-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/3975ad70-c761-11ea-8a94-61b423d19ae7.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/3975ad70-c761-11ea-8a94-61b423d19ae7.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/3af47420-3e7b-11ea-bb0a-69c3ca1d410f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/3af47420-3e7b-11ea-bb0a-69c3ca1d410f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/3b88a120-0c7c-11eb-a3fd-1b45ec532bb3.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/3b88a120-0c7c-11eb-a3fd-1b45ec532bb3.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/3f018af0-ec08-11e9-a4bb-7b5324058fcc.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/3f018af0-ec08-11e9-a4bb-7b5324058fcc.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/41e84340-ec20-11e9-90ec-112a988266d5.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/41e84340-ec20-11e9-90ec-112a988266d5.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/4278ad30-fe16-11e7-a3b0-d13028918f9f-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/4278ad30-fe16-11e7-a3b0-d13028918f9f-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/4288b790-b79f-11e9-a579-f5c0a5d81340.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/4288b790-b79f-11e9-a579-f5c0a5d81340.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/44ce4680-b7ba-11e9-8349-f15f850c5cd0.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/44ce4680-b7ba-11e9-8349-f15f850c5cd0.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/467207a0-231e-11e9-bb66-8baac426dfd4-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/467207a0-231e-11e9-bb66-8baac426dfd4-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/46d21220-b9f1-11e9-a579-f5c0a5d81340.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/46d21220-b9f1-11e9-a579-f5c0a5d81340.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/4746e000-bacd-11e9-9f70-1f7bda85a5eb.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/4746e000-bacd-11e9-9f70-1f7bda85a5eb.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/4b555c30-47dd-11e8-bc13-1397384faad3-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/4b555c30-47dd-11e8-bc13-1397384faad3-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/4b975820-85a1-11ea-91bc-ab084c7ec0e7.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/4b975820-85a1-11ea-91bc-ab084c7ec0e7.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/4c68f110-2863-11e9-97cb-474beda9f119-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/4c68f110-2863-11e9-97cb-474beda9f119-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/5517a150-f9ce-11e6-8115-a7c18106d86a-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/5517a150-f9ce-11e6-8115-a7c18106d86a-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/55a9e6e0-a29e-11e7-928f-5dbe6f6f5519-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/55a9e6e0-a29e-11e7-928f-5dbe6f6f5519-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/56428e01-0c47-4770-8ba4-9345a029ea41.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/56428e01-0c47-4770-8ba4-9345a029ea41.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/57b3fb50-6309-11ea-a83e-25b8612d00cc.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/57b3fb50-6309-11ea-a83e-25b8612d00cc.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/5e649d60-9901-11e9-ba57-b7ab4e2d4b58.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/5e649d60-9901-11e9-ba57-b7ab4e2d4b58.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/6041d970-a6ae-11ea-950e-d57608e3aa51.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/6041d970-a6ae-11ea-950e-d57608e3aa51.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/65120940-1454-11e9-9de0-f98d1808db8e-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/65120940-1454-11e9-9de0-f98d1808db8e-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/6576c480-73a2-11ea-a345-f985c61fe654.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/6576c480-73a2-11ea-a345-f985c61fe654.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/67c9f900-693e-11ea-b0ac-95d4ecb1fecd.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/67c9f900-693e-11ea-b0ac-95d4ecb1fecd.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/68ba7bd0-20b6-11ea-8f72-2f8d21e50b0c.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/68ba7bd0-20b6-11ea-8f72-2f8d21e50b0c.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/693a5f40-c243-11e7-8692-232bd1143e8a-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/693a5f40-c243-11e7-8692-232bd1143e8a-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/69f5ae20-eb02-11e7-8f04-51231daa5b05-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/69f5ae20-eb02-11e7-8f04-51231daa5b05-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/6a9b80c0-b2ed-11e9-9a23-67ee28886a4b.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/6a9b80c0-b2ed-11e9-9a23-67ee28886a4b.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/6d0cf140-2deb-11e9-bf7e-f35bf5d2e71b.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/6d0cf140-2deb-11e9-bf7e-f35bf5d2e71b.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/6f2393f0-6d08-11ea-8fe8-71add5fd7c38.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/6f2393f0-6d08-11ea-8fe8-71add5fd7c38.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/749203a0-67b1-11ea-a76f-bf44814e437d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/749203a0-67b1-11ea-a76f-bf44814e437d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/76c9e920-e890-11ea-bf8c-d13ebf358a78.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/76c9e920-e890-11ea-bf8c-d13ebf358a78.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/79ffd6e0-faa0-11e6-947f-177f697178b8-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/79ffd6e0-faa0-11e6-947f-177f697178b8-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/7ac8e1d0-28d2-11ea-ba6c-49a884eb104f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/7ac8e1d0-28d2-11ea-ba6c-49a884eb104f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/7de391b0-c1ca-11e7-8995-936807a28b16-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/7de391b0-c1ca-11e7-8995-936807a28b16-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/7fea2930-478e-11e7-b1f0-cb29bac6bf8b-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/7fea2930-478e-11e7-b1f0-cb29bac6bf8b-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/862e2c20-9bf0-11e9-a61b-f742ed613c57.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/862e2c20-9bf0-11e9-a61b-f742ed613c57.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/87095750-f05a-11e9-90ec-112a988266d5.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/87095750-f05a-11e9-90ec-112a988266d5.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/8cc50a50-47e0-11e8-bc13-1397384faad3-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/8cc50a50-47e0-11e8-bc13-1397384faad3-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/8da53a40-5a2f-11ea-bc69-cdcc68092a57.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/8da53a40-5a2f-11ea-bc69-cdcc68092a57.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/8f788c70-36c9-11ea-9f7a-097fe7ab3ddd.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/8f788c70-36c9-11ea-9f7a-097fe7ab3ddd.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/8f9c6cc0-909d-11ea-8180-7b0dacd9df87.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/8f9c6cc0-909d-11ea-8180-7b0dacd9df87.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/9151c900-471d-11e8-bc13-1397384faad3-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/9151c900-471d-11e8-bc13-1397384faad3-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/917a07b0-178e-11ea-8650-fb606deb5be4.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/917a07b0-178e-11ea-8650-fb606deb5be4.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/91afcc50-eaad-11e9-90ec-112a988266d5.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/91afcc50-eaad-11e9-90ec-112a988266d5.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/94364424-f851-11ea-8206-7b08cd60917a.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/94364424-f851-11ea-8206-7b08cd60917a.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/943caca0-87ee-11e7-ad9c-db80de0bf8d3-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/943caca0-87ee-11e7-ad9c-db80de0bf8d3-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/957a3ef0-2867-11e9-9d21-0be348776e6c-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/957a3ef0-2867-11e9-9d21-0be348776e6c-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/9c09cd20-7399-11ea-a345-f985c61fe654.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/9c09cd20-7399-11ea-a345-f985c61fe654.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/9c11ac60-6cf6-11ea-8fe8-71add5fd7c38.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/9c11ac60-6cf6-11ea-8fe8-71add5fd7c38.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/9c81cf34-f84e-11ea-a49d-f3f94f5e4fac.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/9c81cf34-f84e-11ea-a49d-f3f94f5e4fac.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/9e352900-89c3-4c1b-863e-249e24d0dac9.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/9e352900-89c3-4c1b-863e-249e24d0dac9.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/AV0tXkjYg1PYniApZbKP-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/AV0tXkjYg1PYniApZbKP-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/AV4REOpp5NkDleZmzKkE-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/AV4REOpp5NkDleZmzKkE-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/AV4YjZ5pux-M-tCAunxK-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/AV4YjZ5pux-M-tCAunxK-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/AV4YobKIge1VCbKU_qVo-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/AV4YobKIge1VCbKU_qVo-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/CPU-slash-Memory-per-container-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/CPU-slash-Memory-per-container-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Coredns-Overview-Dashboard.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Coredns-Overview-Dashboard.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/DNS-Unique-Domains-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/DNS-Unique-Domains-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-Apache-Dashboard-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-Apache-Dashboard-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-Cisco-ASA.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-Cisco-ASA.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-Envoyproxy-Overview.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-Envoyproxy-Overview.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-Logstash-Log-Dashboard-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-Logstash-Log-Dashboard-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-Logstash-Slowlog-Dashboard-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-Logstash-Slowlog-Dashboard-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-MISP-Overview.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-MISP-Overview.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-MySQL-Dashboard-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-MySQL-Dashboard-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-O365-Audit.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-O365-Audit.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-Traefik-Dashboard-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-Traefik-Dashboard-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-Zeek-Overview.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-Zeek-Overview.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-activemq-application-events.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-activemq-application-events.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-activemq-audit-events.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-activemq-audit-events.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-cyberarkpas-audit.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-cyberarkpas-audit.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-microsoft-atp-overview.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-microsoft-atp-overview.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-nats-overview-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-nats-overview-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-panw-network-overview.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-panw-network-overview.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-panw-threat-overview.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-panw-threat-overview.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-syslog-dashboard-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-syslog-dashboard-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-threatintel-abuse-url.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-threatintel-abuse-url.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-threatintel-alienvault-otx.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-threatintel-alienvault-otx.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-threatintel-anomali.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-threatintel-anomali.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-threatintel-aubse-malware.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-threatintel-aubse-malware.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-threatintel-malwarebazaar.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-threatintel-malwarebazaar.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-threatintel-misp.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-threatintel-misp.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-threatintel-overview.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-threatintel-overview.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-threatintel-threatq.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Filebeat-threatintel-threatq.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Metricbeat-Apache-HTTPD-server-status-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Metricbeat-Apache-HTTPD-server-status-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Metricbeat-CoreDNS-Dashboard-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Metricbeat-CoreDNS-Dashboard-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Metricbeat-MongoDB-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Metricbeat-MongoDB-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Metricbeat-Nats-Dashboard-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Metricbeat-Nats-Dashboard-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Metricbeat-aws-kinesis-overview.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Metricbeat-aws-kinesis-overview.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Metricbeat-enterprise-search-overview.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Metricbeat-enterprise-search-overview.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Metricbeat-system-overview-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Metricbeat-system-overview-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-Cassandra-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-Cassandra-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-Dashboard-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-Dashboard-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-Flows-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-Flows-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-HTTP-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-HTTP-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-MongoDB-performance-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-MongoDB-performance-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-MySQL-performance-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-MySQL-performance-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-NFS-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-NFS-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-PgSQL-performance-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-PgSQL-performance-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-Thrift-performance-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/Packetbeat-Thrift-performance-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/a096b830-4762-11e9-8062-c98a86cb6f94.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/a096b830-4762-11e9-8062-c98a86cb6f94.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/a2ead240-18bb-11e9-9836-f37dedd3b411-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/a2ead240-18bb-11e9-9836-f37dedd3b411-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/a3ab9a60-b952-11e9-a579-f5c0a5d81340.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/a3ab9a60-b952-11e9-a579-f5c0a5d81340.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/a3f4d080-c7d3-11ec-891a-5f50c7522a3a.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/a3f4d080-c7d3-11ec-891a-5f50c7522a3a.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/a6f5d430-eaa6-11e9-90ec-112a988266d5.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/a6f5d430-eaa6-11e9-90ec-112a988266d5.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/a7b35890-8baa-11e8-9676-ef67484126fb-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/a7b35890-8baa-11e8-9676-ef67484126fb-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/a8160560-0bd0-11ea-81bb-cf244189d349.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/a8160560-0bd0-11ea-81bb-cf244189d349.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/aa5b8bd0-9157-11ea-8180-7b0dacd9df87.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/aa5b8bd0-9157-11ea-8180-7b0dacd9df87.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/abcf35b0-0a82-11e8-bffe-ff7d4f68cf94-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/abcf35b0-0a82-11e8-bffe-ff7d4f68cf94-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/ae96a660-2864-11e9-97cb-474beda9f119-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/ae96a660-2864-11e9-97cb-474beda9f119-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/b15668d0-bac3-11e9-a579-f5c0a5d81340.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/b15668d0-bac3-11e9-a579-f5c0a5d81340.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/b165ef60-32f7-11ea-a83e-25b8612d00cc.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/b165ef60-32f7-11ea-a83e-25b8612d00cc.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/b232c220-8481-11ea-b181-4b1a9e0110f9.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/b232c220-8481-11ea-b181-4b1a9e0110f9.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/b4108810-861c-11ea-91bc-ab084c7ec0e7.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/b4108810-861c-11ea-91bc-ab084c7ec0e7.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/b6a60340-4371-11ea-b0c6-cb14c0977bd1.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/b6a60340-4371-11ea-b0c6-cb14c0977bd1.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/b7675d90-ec34-11e9-a4bb-7b5324058fcc.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/b7675d90-ec34-11e9-a4bb-7b5324058fcc.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/b9163ea0-2417-11e7-a83b-d5f4cebac9ff-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/b9163ea0-2417-11e7-a83b-d5f4cebac9ff-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/ba1d8830-7c7b-11e9-9645-e37efaf5baff.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/ba1d8830-7c7b-11e9-9645-e37efaf5baff.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/c0a7ce90-f4aa-11e7-8647-534bb4c21040-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/c0a7ce90-f4aa-11e7-8647-534bb4c21040-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/c0ac2c00-c1c0-11e7-8995-936807a28b16-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/c0ac2c00-c1c0-11e7-8995-936807a28b16-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/c10ce1cf-f6b8-4de4-8715-2cb5f6770b3b.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/c10ce1cf-f6b8-4de4-8715-2cb5f6770b3b.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/c2b1cbc0-6891-11ea-b0ac-95d4ecb1fecd.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/c2b1cbc0-6891-11ea-b0ac-95d4ecb1fecd.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/c431f410-f9ac-11e9-90e8-1fb18e796788.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/c431f410-f9ac-11e9-90e8-1fb18e796788.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/c5846400-f7fb-11e8-af03-c999c9dea608-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/c5846400-f7fb-11e8-af03-c999c9dea608-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/c93f2c30-b473-11e9-a579-f5c0a5d81340.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/c93f2c30-b473-11e9-a579-f5c0a5d81340.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/ca401040-8e52-11ea-9fa6-4d675d5290dc.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/ca401040-8e52-11ea-9fa6-4d675d5290dc.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/ceefb9e0-1f51-11e9-93ed-f7e068f4aebb-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/ceefb9e0-1f51-11e9-93ed-f7e068f4aebb-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d17b1000-17a4-11ea-8e91-03c7047cbb9d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d17b1000-17a4-11ea-8e91-03c7047cbb9d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d2112e90-36ea-11ea-9f7a-097fe7ab3ddd.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d2112e90-36ea-11ea-9f7a-097fe7ab3ddd.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d39f0980-1ff3-11e9-ae2a-939083c6a64e-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d39f0980-1ff3-11e9-ae2a-939083c6a64e-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d3efeb30-c1c7-11ea-b7e7-0f48178cdb3c.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d3efeb30-c1c7-11ea-b7e7-0f48178cdb3c.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d5878d00-47c5-11e8-bc13-1397384faad3-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d5878d00-47c5-11e8-bc13-1397384faad3-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d5fbd610-03d9-11eb-8034-63f2039e9d3f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d5fbd610-03d9-11eb-8034-63f2039e9d3f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d899d3f0-0883-11eb-a3fd-1b45ec532bb3.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d899d3f0-0883-11eb-a3fd-1b45ec532bb3.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d97b7520-0bbe-11ea-81bb-cf244189d349.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d97b7520-0bbe-11ea-81bb-cf244189d349.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d9eba730-c991-11e7-9835-2f31fe08873b-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/d9eba730-c991-11e7-9835-2f31fe08873b-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/dae20ed0-6d0a-11ea-8fe8-71add5fd7c38.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/dae20ed0-6d0a-11ea-8fe8-71add5fd7c38.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/db1e1aca-279e-4ecc-b84e-fe58644f7619.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/db1e1aca-279e-4ecc-b84e-fe58644f7619.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/dd0bc9af-2e89-4150-9b42-62517ea56b71.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/dd0bc9af-2e89-4150-9b42-62517ea56b71.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/dfbb49f0-0a0f-11e7-8a62-2d05eaaac5cb-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/dfbb49f0-0a0f-11e7-8a62-2d05eaaac5cb-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/dfbc0840-f340-11ea-a3fd-1b45ec532bb3.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/dfbc0840-f340-11ea-a3fd-1b45ec532bb3.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/dfe62590-18da-11e9-9094-c50574723088-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/dfe62590-18da-11e9-9094-c50574723088-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/dff7a080-32f7-11ea-a83e-25b8612d00cc.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/dff7a080-32f7-11ea-a83e-25b8612d00cc.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/e4c5f230-87f3-11e7-ad9c-db80de0bf8d3-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/e4c5f230-87f3-11e7-ad9c-db80de0bf8d3-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/e6776b10-1534-11ea-841c-01bf20a6c8ba.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/e6776b10-1534-11ea-841c-01bf20a6c8ba.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/e706b4a0-ee30-11ec-bb3e-1bec5bcfeb8c.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/e706b4a0-ee30-11ec-bb3e-1bec5bcfeb8c.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/e74bf320-b3ce-11e9-87a4-078dbbae220d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/e74bf320-b3ce-11e9-87a4-078dbbae220d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/e9057ae0-47c5-11e8-bc13-1397384faad3-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/e9057ae0-47c5-11e8-bc13-1397384faad3-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/ea488d90-8e63-11e8-8fa2-3d5f811fbd0f-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/ea488d90-8e63-11e8-8fa2-3d5f811fbd0f-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/eb3f05f0-ea9a-11e9-90ec-112a988266d5.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/eb3f05f0-ea9a-11e9-90ec-112a988266d5.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/ebc23240-8572-11ea-91bc-ab084c7ec0e7.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/ebc23240-8572-11ea-91bc-ab084c7ec0e7.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/f2dc7320-f519-11e6-a3c9-9d1f7c42b045-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/f2dc7320-f519-11e6-a3c9-9d1f7c42b045-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/f40ee870-5e4a-11ea-a4f6-717338406083.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/f40ee870-5e4a-11ea-a4f6-717338406083.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/f5ab5510-9c94-11e9-94fd-c91206cd5249.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/f5ab5510-9c94-11e9-94fd-c91206cd5249.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/f693d260-2417-11e7-a83b-d5f4cebac9ff-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/f693d260-2417-11e7-a83b-d5f4cebac9ff-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/fac28650-7349-11e9-816b-07687310a99a.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/fac28650-7349-11e9-816b-07687310a99a.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/fc27a270-0b95-11ea-81bb-cf244189d349.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/fc27a270-0b95-11ea-81bb-cf244189d349.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/fc5512c0-36d1-11ea-9f7a-097fe7ab3ddd.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/fc5512c0-36d1-11ea-9f7a-097fe7ab3ddd.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/ff2fe020-32f7-11ea-a83e-25b8612d00cc.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/ff2fe020-32f7-11ea-a83e-25b8612d00cc.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-netflow-autonomous-systems.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-netflow-autonomous-systems.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-netflow-conversation-partners.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-netflow-conversation-partners.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-netflow-flow-exporters.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-netflow-flow-exporters.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-netflow-flow-records.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-netflow-flow-records.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-netflow-geo-location.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-netflow-geo-location.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-netflow-overview.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-netflow-overview.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-netflow-traffic-analysis.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-netflow-traffic-analysis.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-network-flows-top-n.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-network-flows-top-n.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-suricata-alert-overview.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-suricata-alert-overview.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-suricata-event-overview.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/filebeat-suricata-event-overview.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-0a672d50-bcb1-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-0a672d50-bcb1-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-21694370-bcb2-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-21694370-bcb2-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-3912d9a0-bcb2-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-3912d9a0-bcb2-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-3d4d9290-bcb1-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-3d4d9290-bcb1-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-5be46210-bcb1-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-5be46210-bcb1-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-85879010-bcb1-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-85879010-bcb1-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-9bf990a0-bcb1-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-9bf990a0-bcb1-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-b945b7b0-bcb1-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-b945b7b0-bcb1-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-dd081350-bcb1-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-dd081350-bcb1-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-e0195ce0-bcaf-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-e0195ce0-bcaf-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-ff1b3850-bcb1-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/kubernetes-ff1b3850-bcb1-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/metricbeat-vsphere-host.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/metricbeat-vsphere-host.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/metricbeat-vsphere-vm.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/metricbeat-vsphere-vm.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/salesforce-1659aef0-574c-11ec-8f0b-05e8b06e1b10.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/salesforce-1659aef0-574c-11ec-8f0b-05e8b06e1b10.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/salesforce-59ef0af0-5749-11ec-8f0b-05e8b06e1b10.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/salesforce-59ef0af0-5749-11ec-8f0b-05e8b06e1b10.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/salesforce-6c750440-5749-11ec-8f0b-05e8b06e1b10.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/salesforce-6c750440-5749-11ec-8f0b-05e8b06e1b10.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/salesforce-790da810-5749-11ec-8f0b-05e8b06e1b10.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/salesforce-790da810-5749-11ec-8f0b-05e8b06e1b10.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/tls-sessions-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard/tls-sessions-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/dashboard: Cannot utime: Operation not permitted
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/021ba940-de96-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/021ba940-de96-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/028175a0-ff74-11eb-acb2-2960a7069ed1.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/028175a0-ff74-11eb-acb2-2960a7069ed1.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/057de170-e88d-11ea-bf8c-d13ebf358a78.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/057de170-e88d-11ea-bf8c-d13ebf358a78.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/0776dbf0-019f-11eb-b032-d59f894a5072.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/0776dbf0-019f-11eb-b032-d59f894a5072.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/0c48f2e0-db40-11ec-a23d-5dd6249f86b6.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/0c48f2e0-db40-11ec-a23d-5dd6249f86b6.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/0db62ee0-72e6-11eb-a3e3-b3cc7c78a70f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/0db62ee0-72e6-11eb-a3e3-b3cc7c78a70f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/0df175c0-03ee-11eb-8034-63f2039e9d3f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/0df175c0-03ee-11eb-8034-63f2039e9d3f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/0e74dee0-04a4-11eb-8034-63f2039e9d3f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/0e74dee0-04a4-11eb-8034-63f2039e9d3f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/0f534cb0-db40-11ec-a23d-5dd6249f86b6.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/0f534cb0-db40-11ec-a23d-5dd6249f86b6.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/1064f9a0-04a5-11eb-8034-63f2039e9d3f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/1064f9a0-04a5-11eb-8034-63f2039e9d3f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/1136ceb0-de95-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/1136ceb0-de95-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/11d06fc0-01a0-11eb-b032-d59f894a5072.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/11d06fc0-01a0-11eb-b032-d59f894a5072.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/133df460-db40-11ec-a23d-5dd6249f86b6.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/133df460-db40-11ec-a23d-5dd6249f86b6.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/14d367f0-ca68-11ea-9d4d-9737a63aaa55.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/14d367f0-ca68-11ea-9d4d-9737a63aaa55.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/156eb540-db7b-11ec-9a27-6bd4c921c53b.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/156eb540-db7b-11ec-9a27-6bd4c921c53b.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/18248840-db40-11ec-a23d-5dd6249f86b6.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/18248840-db40-11ec-a23d-5dd6249f86b6.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/1c23c960-db40-11ec-a23d-5dd6249f86b6.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/1c23c960-db40-11ec-a23d-5dd6249f86b6.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/1d7a18c0-df54-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/1d7a18c0-df54-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/25b76dc0-01a2-11eb-b032-d59f894a5072.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/25b76dc0-01a2-11eb-b032-d59f894a5072.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/2a711450-d871-11eb-8220-c9141cc1b15c.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/2a711450-d871-11eb-8220-c9141cc1b15c.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/2b54b2c0-04a8-11eb-8034-63f2039e9d3f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/2b54b2c0-04a8-11eb-8034-63f2039e9d3f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/30fd4e40-f0a1-11eb-b61f-a53cb4913361.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/30fd4e40-f0a1-11eb-b61f-a53cb4913361.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/36f61650-de96-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/36f61650-de96-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/3c40f4d0-de97-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/3c40f4d0-de97-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/403d81e0-01a0-11eb-b032-d59f894a5072.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/403d81e0-01a0-11eb-b032-d59f894a5072.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/41e37710-f09d-11eb-b61f-a53cb4913361.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/41e37710-f09d-11eb-b61f-a53cb4913361.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/520c6f10-ec8a-11ea-a0ed-7fe6b565d158.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/520c6f10-ec8a-11ea-a0ed-7fe6b565d158.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/56ac2b40-d871-11eb-8220-c9141cc1b15c.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/56ac2b40-d871-11eb-8220-c9141cc1b15c.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/5ef7b430-de94-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/5ef7b430-de94-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/5f97d300-01a1-11eb-b032-d59f894a5072.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/5f97d300-01a1-11eb-b032-d59f894a5072.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/60941700-2e88-11eb-991c-c5fd3b7f5a63.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/60941700-2e88-11eb-991c-c5fd3b7f5a63.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/63aa5990-d86f-11eb-8220-c9141cc1b15c.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/63aa5990-d86f-11eb-8220-c9141cc1b15c.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/68f36fb0-f0a0-11eb-b61f-a53cb4913361.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/68f36fb0-f0a0-11eb-b61f-a53cb4913361.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/6d631980-d870-11eb-8220-c9141cc1b15c.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/6d631980-d870-11eb-8220-c9141cc1b15c.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/6de1f430-019d-11eb-b032-d59f894a5072.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/6de1f430-019d-11eb-b032-d59f894a5072.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/73346db0-e88d-11ea-bf8c-d13ebf358a78.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/73346db0-e88d-11ea-bf8c-d13ebf358a78.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/76cc1d70-04a7-11eb-8034-63f2039e9d3f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/76cc1d70-04a7-11eb-8034-63f2039e9d3f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/79d713c0-d86f-11eb-8220-c9141cc1b15c.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/79d713c0-d86f-11eb-8220-c9141cc1b15c.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/79d80f10-01a0-11eb-b032-d59f894a5072.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/79d80f10-01a0-11eb-b032-d59f894a5072.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/7d9c70f0-de95-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/7d9c70f0-de95-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/7ec83f60-de98-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/7ec83f60-de98-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/8560b400-f096-11eb-b61f-a53cb4913361.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/8560b400-f096-11eb-b61f-a53cb4913361.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/86720980-3966-11eb-a417-f961313c14f6.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/86720980-3966-11eb-a417-f961313c14f6.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/8a6f7b20-de94-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/8a6f7b20-de94-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/8cf592f0-2e8e-11eb-a417-f961313c14f6.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/8cf592f0-2e8e-11eb-a417-f961313c14f6.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/9282afc0-72d9-11eb-a3e3-b3cc7c78a70f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/9282afc0-72d9-11eb-a3e3-b3cc7c78a70f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/95f0b070-db48-11ec-a23d-5dd6249f86b6.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/95f0b070-db48-11ec-a23d-5dd6249f86b6.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/976620a0-de98-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/976620a0-de98-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/9a61edc0-de93-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/9a61edc0-de93-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/9c78ade0-de95-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/9c78ade0-de95-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/9deb6a80-d870-11eb-8220-c9141cc1b15c.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/9deb6a80-d870-11eb-8220-c9141cc1b15c.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/a7970500-2e91-11eb-a417-f961313c14f6.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/a7970500-2e91-11eb-a417-f961313c14f6.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/a89c8fd0-03ec-11eb-8034-63f2039e9d3f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/a89c8fd0-03ec-11eb-8034-63f2039e9d3f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/aac00bc0-de98-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/aac00bc0-de98-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/ae5934e0-de94-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/ae5934e0-de94-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/b0077d10-f09b-11eb-b61f-a53cb4913361.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/b0077d10-f09b-11eb-b61f-a53cb4913361.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/b1837e70-396f-11eb-a417-f961313c14f6.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/b1837e70-396f-11eb-a417-f961313c14f6.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/b3da5ac0-e6f1-11ea-a5b5-d5a0accaec95.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/b3da5ac0-e6f1-11ea-a5b5-d5a0accaec95.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/bbc80900-f09e-11eb-b61f-a53cb4913361.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/bbc80900-f09e-11eb-b61f-a53cb4913361.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/bd28cb00-de96-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/bd28cb00-de96-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/bd399790-01a2-11eb-b032-d59f894a5072.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/bd399790-01a2-11eb-b032-d59f894a5072.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/be8d8d30-09ae-11ec-8d29-f3a1bb757c14.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/be8d8d30-09ae-11ec-8d29-f3a1bb757c14.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/bfd2bfe0-de97-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/bfd2bfe0-de97-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/c3952840-2e91-11eb-a417-f961313c14f6.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/c3952840-2e91-11eb-a417-f961313c14f6.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/c4419a90-f091-11eb-b61f-a53cb4913361.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/c4419a90-f091-11eb-b61f-a53cb4913361.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/c68d7c30-d870-11eb-8220-c9141cc1b15c.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/c68d7c30-d870-11eb-8220-c9141cc1b15c.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/c91fcd10-de95-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/c91fcd10-de95-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/cb5ec410-03ed-11eb-8034-63f2039e9d3f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/cb5ec410-03ed-11eb-8034-63f2039e9d3f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/cde34840-e6f2-11ea-a5b5-d5a0accaec95.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/cde34840-e6f2-11ea-a5b5-d5a0accaec95.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/cf4b4e40-ff69-11eb-acb2-2960a7069ed1.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/cf4b4e40-ff69-11eb-acb2-2960a7069ed1.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/cfa361a0-04a8-11eb-8034-63f2039e9d3f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/cfa361a0-04a8-11eb-8034-63f2039e9d3f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/d1468000-d86f-11eb-8220-c9141cc1b15c.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/d1468000-d86f-11eb-8220-c9141cc1b15c.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/d3f3aa80-2e8d-11eb-a417-f961313c14f6.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/d3f3aa80-2e8d-11eb-a417-f961313c14f6.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/d7b399c0-e6f1-11ea-a5b5-d5a0accaec95.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/d7b399c0-e6f1-11ea-a5b5-d5a0accaec95.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/d991e510-de96-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/d991e510-de96-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/dd835300-e88f-11ea-bf8c-d13ebf358a78.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/dd835300-e88f-11ea-bf8c-d13ebf358a78.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/e2704140-04a3-11eb-8034-63f2039e9d3f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/e2704140-04a3-11eb-8034-63f2039e9d3f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/e415af10-ca67-11ea-9d4d-9737a63aaa55.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/e415af10-ca67-11ea-9d4d-9737a63aaa55.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/e5f07800-de94-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/e5f07800-de94-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/e6933020-e88d-11ea-bf8c-d13ebf358a78.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/e6933020-e88d-11ea-bf8c-d13ebf358a78.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/eb555af0-db7c-11ec-9a27-6bd4c921c53b.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/eb555af0-db7c-11ec-9a27-6bd4c921c53b.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/ed0682d0-db7b-11ec-9a27-6bd4c921c53b.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/ed0682d0-db7b-11ec-9a27-6bd4c921c53b.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/f0678020-04a2-11eb-8034-63f2039e9d3f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/f0678020-04a2-11eb-8034-63f2039e9d3f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/f3e92c10-019d-11eb-b032-d59f894a5072.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/f3e92c10-019d-11eb-b032-d59f894a5072.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/f52a9720-de93-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/f52a9720-de93-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/f5f18940-de96-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/f5f18940-de96-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/f757eba0-f0a0-11eb-b61f-a53cb4913361.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/f757eba0-f0a0-11eb-b61f-a53cb4913361.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/f9ff3450-f094-11eb-b61f-a53cb4913361.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/f9ff3450-f094-11eb-b61f-a53cb4913361.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-32e1cac0-bcba-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-32e1cac0-bcba-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-37ea30c0-bcb5-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-37ea30c0-bcb5-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-3c34f9d0-bcb5-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-3c34f9d0-bcb5-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-4155e980-bcb3-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-4155e980-bcb3-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-43b09e30-bcba-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-43b09e30-bcba-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-48a93370-bcba-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-48a93370-bcba-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-4eba56e0-bcb5-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-4eba56e0-bcb5-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-aa6ac830-bcb5-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-aa6ac830-bcb5-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-af808260-bcb5-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-af808260-bcb5-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-b1132f50-bcc0-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-b1132f50-bcc0-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-b57a5b00-bcb5-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-b57a5b00-bcb5-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-bad6e230-bcb5-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-bad6e230-bcb5-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-c0314680-bcb5-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-c0314680-bcb5-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-c5053cc0-bcb5-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-c5053cc0-bcb5-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-ca83a3d0-bcb5-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-ca83a3d0-bcb5-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-cf44d560-bcb5-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-cf44d560-bcb5-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-d466eba0-bcb5-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-d466eba0-bcb5-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-da2a4af0-bcb5-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-da2a4af0-bcb5-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-dee9f5e0-bcb5-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-dee9f5e0-bcb5-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-e3beaf70-bcb5-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-e3beaf70-bcb5-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-e94fb750-bcb9-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-e94fb750-bcb9-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-f1d25db0-bcb9-11ec-b64f-7dd6e8e82013.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens/kubernetes-f1d25db0-bcb9-11ec-b64f-7dd6e8e82013.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/lens: Cannot utime: Operation not permitted
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/0edf0640-3e7e-11ea-bb0a-69c3ca1d410f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/0edf0640-3e7e-11ea-bb0a-69c3ca1d410f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/281ca660-67b1-11ea-a76f-bf44814e437d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/281ca660-67b1-11ea-a76f-bf44814e437d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/513a3d70-4482-11ea-ad63-791a5dc86f10.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/513a3d70-4482-11ea-ad63-791a5dc86f10.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/5c2e6bc0-5d6c-11ec-9523-d1b667ac64c0.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/5c2e6bc0-5d6c-11ec-9523-d1b667ac64c0.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/63365b50-82aa-11eb-ac13-d5ca87cb8fa2.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/63365b50-82aa-11eb-ac13-d5ca87cb8fa2.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/a97de660-73a5-11ea-a345-f985c61fe654.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/a97de660-73a5-11ea-a345-f985c61fe654.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/dae24080-739a-11ea-a345-f985c61fe654.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/dae24080-739a-11ea-a345-f985c61fe654.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/dbae13c0-685c-11ea-8d6a-292ef5d68366.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/dbae13c0-685c-11ea-8d6a-292ef5d68366.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/ec5aa090-df42-11eb-8f2b-753caedf727d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map/ec5aa090-df42-11eb-8f2b-753caedf727d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/map: Cannot utime: Operation not permitted
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/0ab87b80-478e-11e7-b1f0-cb29bac6bf8b-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/0ab87b80-478e-11e7-b1f0-cb29bac6bf8b-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/0f10c430-c1c3-11e7-8995-936807a28b16-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/0f10c430-c1c3-11e7-8995-936807a28b16-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/0f9611b0-2862-11e9-97cb-474beda9f119-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/0f9611b0-2862-11e9-97cb-474beda9f119-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/0fe5dc00-f49b-11e7-8647-534bb4c21040-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/0fe5dc00-f49b-11e7-8647-534bb4c21040-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/13dd22f0-86cc-11e8-b59d-21efb914e65c-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/13dd22f0-86cc-11e8-b59d-21efb914e65c-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/1411b690-f017-11e9-aaf3-15199b632da7.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/1411b690-f017-11e9-aaf3-15199b632da7.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/14fce5e0-498f-11e9-b8ce-ed898b5ef295.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/14fce5e0-498f-11e9-b8ce-ed898b5ef295.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/1c2bcec0-86d1-11e8-b59d-21efb914e65c-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/1c2bcec0-86d1-11e8-b59d-21efb914e65c-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/21028750-67ca-11ea-a76f-bf44814e437d.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/21028750-67ca-11ea-a76f-bf44814e437d.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/290685e0-7569-11e9-976e-65a8f47cc4c1.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/290685e0-7569-11e9-976e-65a8f47cc4c1.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/2e04c720-285f-11e9-805f-43bf57dfa519-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/2e04c720-285f-11e9-805f-43bf57dfa519-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/30ccde50-7397-11ea-a345-f985c61fe654.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/30ccde50-7397-11ea-a345-f985c61fe654.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/3824b080-eb02-11e7-8f04-51231daa5b05-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/3824b080-eb02-11e7-8f04-51231daa5b05-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/391ef230-2868-11e9-9d21-0be348776e6c-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/391ef230-2868-11e9-9d21-0be348776e6c-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/3bfed610-2867-11e9-9d21-0be348776e6c-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/3bfed610-2867-11e9-9d21-0be348776e6c-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/3cea1360-7569-11e9-976e-65a8f47cc4c1.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/3cea1360-7569-11e9-976e-65a8f47cc4c1.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/4ac0a370-0a11-11e7-8b04-eb22a5669f27-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/4ac0a370-0a11-11e7-8b04-eb22a5669f27-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/51d23250-5d8b-11ec-9523-d1b667ac64c0.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/51d23250-5d8b-11ec-9523-d1b667ac64c0.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/5438b030-c246-11e7-8692-232bd1143e8a-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/5438b030-c246-11e7-8692-232bd1143e8a-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/5cede2d3-20fe-4140-add4-4c4f841b71a2.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/5cede2d3-20fe-4140-add4-4c4f841b71a2.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/5e5a3c90-bac0-11e9-9f70-1f7bda85a5eb.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/5e5a3c90-bac0-11e9-9f70-1f7bda85a5eb.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/62439dc0-f9c9-11e6-a747-6121780e0414-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/62439dc0-f9c9-11e6-a747-6121780e0414-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/651fd6d0-88d0-11e7-ad9c-db80de0bf8d3-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/651fd6d0-88d0-11e7-ad9c-db80de0bf8d3-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/658a3db0-2864-11e9-97cb-474beda9f119-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/658a3db0-2864-11e9-97cb-474beda9f119-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/68202a5c-c8f2-432f-8c08-04fbfacb95c8.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/68202a5c-c8f2-432f-8c08-04fbfacb95c8.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/6acbb070-72d0-11eb-a3e3-b3cc7c78a70f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/6acbb070-72d0-11eb-a3e3-b3cc7c78a70f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/6b1b1360-d49d-11e7-996f-bd7c1ca4591b-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/6b1b1360-d49d-11e7-996f-bd7c1ca4591b-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/6d56a010-ff6a-11e8-93c5-d5ecd1b3e307-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/6d56a010-ff6a-11e8-93c5-d5ecd1b3e307-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/6d9e66d0-a1f0-11e7-928f-5dbe6f6f5519-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/6d9e66d0-a1f0-11e7-928f-5dbe6f6f5519-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/710043e0-2417-11e7-a83b-d5f4cebac9ff-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/710043e0-2417-11e7-a83b-d5f4cebac9ff-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/71908f00-88ca-11e7-ad9c-db80de0bf8d3-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/71908f00-88ca-11e7-ad9c-db80de0bf8d3-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/73613570-4791-11e7-be88-2ddb32f3df97-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/73613570-4791-11e7-be88-2ddb32f3df97-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/742e45d0-cbdd-11e7-9852-73e0a9df1bb6-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/742e45d0-cbdd-11e7-9852-73e0a9df1bb6-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/753406e0-4986-11e9-b8ce-ed898b5ef295.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/753406e0-4986-11e9-b8ce-ed898b5ef295.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/769ba1c0-4b84-11ec-9959-a3c0f68b1e4f.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/769ba1c0-4b84-11ec-9959-a3c0f68b1e4f.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/7862cab0-1fdb-11e9-ae2a-939083c6a64e-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/7862cab0-1fdb-11e9-ae2a-939083c6a64e-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/7a9482d0-eb00-11e7-8f04-51231daa5b05-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/7a9482d0-eb00-11e7-8f04-51231daa5b05-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/8030c1b0-fa77-11e6-ae9b-81e5311e8cab-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/8030c1b0-fa77-11e6-ae9b-81e5311e8cab-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/82db7ba0-adec-11e9-8358-1517661d7c84.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/82db7ba0-adec-11e9-8358-1517661d7c84.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/896ef3a0-145f-11ea-8fd8-030a13064883.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/896ef3a0-145f-11ea-8fd8-030a13064883.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/8b8e5a10-6886-11ea-8d6a-292ef5d68366.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/8b8e5a10-6886-11ea-8d6a-292ef5d68366.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/8e2af860-d520-11e7-9fff-7b1ebf397ba9-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/8e2af860-d520-11e7-9fff-7b1ebf397ba9-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/8f0ff590-d37d-11e7-9914-4982455b3063-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/8f0ff590-d37d-11e7-9914-4982455b3063-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/94908e80-d2d8-11e7-9914-4982455b3063-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/94908e80-d2d8-11e7-9914-4982455b3063-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/96c6ff60-4986-11e9-b8ce-ed898b5ef295.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/96c6ff60-4986-11e9-b8ce-ed898b5ef295.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/9eb25600-a1f0-11e7-928f-5dbe6f6f5519-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/9eb25600-a1f0-11e7-928f-5dbe6f6f5519-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/9f7d97c0-1fe9-11e9-ae2a-939083c6a64e-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/9f7d97c0-1fe9-11e9-ae2a-939083c6a64e-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/All Kafka logs-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/All Kafka logs-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Apache-HTTPD-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Apache-HTTPD-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Apache-access-logs-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Apache-access-logs-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Apache-errors-log-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Apache-errors-log-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Cassandra-QueryView-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Cassandra-QueryView-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Filebeat-MySQL-Slow-log-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Filebeat-MySQL-Slow-log-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Filebeat-MySQL-error-log-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Filebeat-MySQL-error-log-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Filebeat-Nginx-module-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Filebeat-Nginx-module-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Filebeat-Traefik-module-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Filebeat-Traefik-module-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Kafka stacktraces-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Kafka stacktraces-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Metricbeat-Docker-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Metricbeat-Docker-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Metricbeat-Rabbitmq-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Metricbeat-Rabbitmq-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Metricbeat-Redis-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Metricbeat-Redis-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/MongoDB-search-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/MongoDB-search-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/MongoDB-transactions-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/MongoDB-transactions-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/MongoDB-transactions-with-write-concern-0-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/MongoDB-transactions-with-write-concern-0-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/MySQL-Transactions-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/MySQL-Transactions-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/MySQL-errors-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/MySQL-errors-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/NFS-errors-search-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/NFS-errors-search-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Packetbeat-Flows-Search-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Packetbeat-Flows-Search-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Packetbeat-Search-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Packetbeat-Search-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/PgSQL-errors-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/PgSQL-errors-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/PgSQL-transactions-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/PgSQL-transactions-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/PostgreSQL All Logs-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/PostgreSQL All Logs-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/PostgreSQL Query Durations-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/PostgreSQL Query Durations-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Slow PostgreSQL Queries-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Slow PostgreSQL Queries-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Syslog-system-logs-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Syslog-system-logs-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Thrift-errors-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Thrift-errors-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Thrift-transactions-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Thrift-transactions-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Transactions-errors-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/Transactions-errors-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/a34c6611-79d8-4b50-ae3f-8b328d28e24a.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/a34c6611-79d8-4b50-ae3f-8b328d28e24a.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/a380a060-cb44-11e7-9835-2f31fe08873b-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/a380a060-cb44-11e7-9835-2f31fe08873b-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/a832bcf0-f342-11ea-a3fd-1b45ec532bb3.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/a832bcf0-f342-11ea-a3fd-1b45ec532bb3.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/a9b82df0-97a5-11eb-bbf8-d77aef8ad7a6.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/a9b82df0-97a5-11eb-bbf8-d77aef8ad7a6.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/abe78cd0-18ca-11e9-9094-c50574723088-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/abe78cd0-18ca-11e9-9094-c50574723088-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/adc7d0c0-d1fc-11ec-8c69-8bbb7ca8f9ee.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/adc7d0c0-d1fc-11ec-8c69-8bbb7ca8f9ee.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/b3b98110-5d92-11ec-9523-d1b667ac64c0.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/b3b98110-5d92-11ec-9523-d1b667ac64c0.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/b3f1b010-1f26-11e9-8ec4-cf5d91a864b3-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/b3f1b010-1f26-11e9-8ec4-cf5d91a864b3-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/b4c93470-c240-11e7-8692-232bd1143e8a-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/b4c93470-c240-11e7-8692-232bd1143e8a-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/b5d6baa0-eb02-11e7-8f04-51231daa5b05-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/b5d6baa0-eb02-11e7-8f04-51231daa5b05-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/b6b7ccc0-c98d-11e7-9835-2f31fe08873b-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/b6b7ccc0-c98d-11e7-9835-2f31fe08873b-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/b6f321e0-fa25-11e6-bbd3-29c986c96e5a-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/b6f321e0-fa25-11e6-bbd3-29c986c96e5a-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/b8992150-8ba8-11e8-9676-ef67484126fb-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/b8992150-8ba8-11e8-9676-ef67484126fb-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/bf3d23b0-d37c-11e7-9914-4982455b3063-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/bf3d23b0-d37c-11e7-9914-4982455b3063-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/bfc96a60-0a80-11e8-bffe-ff7d4f68cf94-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/bfc96a60-0a80-11e8-bffe-ff7d4f68cf94-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/c1aee600-4487-11ea-ad63-791a5dc86f10.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/c1aee600-4487-11ea-ad63-791a5dc86f10.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/c1e2ccd0-1ae5-11e9-9eb0-d1ab52900288.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/c1e2ccd0-1ae5-11e9-9eb0-d1ab52900288.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/c4e80aa0-1fd4-11e9-ae2a-939083c6a64e-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/c4e80aa0-1fd4-11e9-ae2a-939083c6a64e-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/c876e6a0-2418-11e7-a83b-d5f4cebac9ff-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/c876e6a0-2418-11e7-a83b-d5f4cebac9ff-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/cfaba090-cbda-11e7-9852-73e0a9df1bb6-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/cfaba090-cbda-11e7-9852-73e0a9df1bb6-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/d08ebd30-27ff-11e9-805f-43bf57dfa519-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/d08ebd30-27ff-11e9-805f-43bf57dfa519-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/d19e8485-7df5-47ce-8009-9dc3c42bcf17-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/d19e8485-7df5-47ce-8009-9dc3c42bcf17-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/d20d4ea0-f342-11ea-a3fd-1b45ec532bb3.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/d20d4ea0-f342-11ea-a3fd-1b45ec532bb3.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/d382f5b0-c1c6-11e7-8995-936807a28b16-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/d382f5b0-c1c6-11e7-8995-936807a28b16-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/d57a2db0-86ca-11e8-b59d-21efb914e65c-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/d57a2db0-86ca-11e8-b59d-21efb914e65c-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/d784ec10-1460-11ea-8fd8-030a13064883.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/d784ec10-1460-11ea-8fd8-030a13064883.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/d88364c0-73a1-11ea-a345-f985c61fe654.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/d88364c0-73a1-11ea-a345-f985c61fe654.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/e49fe000-0a7e-11e8-bffe-ff7d4f68cf94-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/e49fe000-0a7e-11e8-bffe-ff7d4f68cf94-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/e6cf2383-71f4-4db1-a791-1a7d4f110194.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/e6cf2383-71f4-4db1-a791-1a7d4f110194.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/e8734160-c24c-11e7-8692-232bd1143e8a-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/e8734160-c24c-11e7-8692-232bd1143e8a-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/eaa83e60-190b-11e9-be0d-adde5066235e-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/eaa83e60-190b-11e9-be0d-adde5066235e-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/eb0039f0-fa7f-11e6-a1df-a78bd7504d38-ecs.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/eb0039f0-fa7f-11e6-a1df-a78bd7504d38-ecs.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/ef8b6070-5d6d-11ec-9523-d1b667ac64c0.json
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/kibana/7/search/ef8b6070-5d6d-11ec-9523-d1b667ac64c0.json: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/modules.d/traefik.yml.disabled
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/modules.d/traefik.yml.disabled: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/modules.d/uwsgi.yml.disabled
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/modules.d/uwsgi.yml.disabled: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/modules.d/vsphere.yml.disabled
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/modules.d/vsphere.yml.disabled: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/modules.d/windows.yml.disabled
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/modules.d/windows.yml.disabled: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/modules.d/zeek.yml.disabled
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/modules.d/zeek.yml.disabled: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/modules.d/zookeeper.yml.disabled
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/modules.d/zookeeper.yml.disabled: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/modules.d/zoom.yml.disabled
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/modules.d/zoom.yml.disabled: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/modules.d/zscaler.yml.disabled
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/modules.d/zscaler.yml.disabled: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/monitors.d/
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/modules.d: Cannot utime: Operation not permitted
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/monitors.d/sample.http.yml.disabled
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/monitors.d/sample.http.yml.disabled: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/monitors.d/sample.icmp.yml.disabled
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/monitors.d/sample.icmp.yml.disabled: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/monitors.d/sample.tcp.yml.disabled
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/monitors.d/sample.tcp.yml.disabled: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/osquery-extension.ext
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/monitors.d: Cannot utime: Operation not permitted
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/osquery-extension.ext: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/osquerybeat
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/osquerybeat: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/osquerybeat.reference.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/osquerybeat.reference.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/osquerybeat.spec.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/osquerybeat.spec.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/osquerybeat.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/osquerybeat.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/osqueryd
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/osqueryd: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/packetbeat
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/packetbeat: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/packetbeat.reference.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/packetbeat.reference.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/packetbeat.spec.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/packetbeat.spec.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/packetbeat.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/packetbeat.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/pf-elastic-collector
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/pf-elastic-collector: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/pf-elastic-collector.spec.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/pf-elastic-collector.spec.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/pf-elastic-symbolizer
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/pf-elastic-symbolizer: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/pf-elastic-symbolizer.spec.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/pf-elastic-symbolizer.spec.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/pf-host-agent
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/pf-host-agent: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/pf-host-agent.spec.yml
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components/pf-host-agent.spec.yml: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/elastic-agent
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/components: Cannot utime: Operation not permitted
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/elastic-agent: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/package.version
+tar: elastic-agent-8.12.2-linux-x86_64/data/elastic-agent-de80b0/package.version: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/.elastic-agent.active.commit
+tar: elastic-agent-8.12.2-linux-x86_64/.elastic-agent.active.commit: Cannot open: File exists
+elastic-agent-8.12.2-linux-x86_64/elastic-agent
+tar: elastic-agent-8.12.2-linux-x86_64/elastic-agent: Cannot create symlink to ‘data/elastic-agent-de80b0/elastic-agent’: File exists
+tar: Exiting with failure status due to previous errors
+[sudo] password for kali: 
+Error: already installed at: /opt/Elastic/Agent
+For help, please see our troubleshooting guide at https://www.elastic.co/guide/en/fleet/8.12/fleet-troubleshooting.html
+                                                                                                                                                                                                                                            
+┌──(kali㉿kali)-[~/elastic-agent-8.12.2-linux-x86_64]
+└─$ sudo systemctl status elastic-agent.service
+● elastic-agent.service - Elastic Agent is a unified agent to observe, monitor and protect your system.
+     Loaded: loaded (/etc/systemd/system/elastic-agent.service; enabled; preset: disabled)
+     Active: active (running) since Fri 2024-03-29 04:33:48 EDT; 5min ago
+   Main PID: 385 (elastic-agent)
+      Tasks: 37 (limit: 2287)
+     Memory: 408.3M
+        CPU: 9.346s
+     CGroup: /system.slice/elastic-agent.service
+             ├─385 /opt/Elastic/Agent/elastic-agent
+             ├─582 /opt/Elastic/Agent/data/elastic-agent-de80b0/components/filebeat -E setup.ilm.enabled=false -E setup.template.enabled=false -E management.enabled=true -E management.restart_on_output_change=true -E logging.level=info>
+             ├─583 /opt/Elastic/Agent/data/elastic-agent-de80b0/components/metricbeat -E setup.ilm.enabled=false -E setup.template.enabled=false -E management.enabled=true -E management.restart_on_output_change=true -E logging.level=in>
+             └─591 /opt/Elastic/Agent/data/elastic-agent-de80b0/components/metricbeat -E setup.ilm.enabled=false -E setup.template.enabled=false -E management.enabled=true -E management.restart_on_output_change=true -E logging.level=in>
+
+Mar 29 04:33:48 kali systemd[1]: Started Elastic Agent is a unified agent to observe, monitor and protect your system..
+~
+~
+~
+~
+~
+lines 1-14/14 (END)
