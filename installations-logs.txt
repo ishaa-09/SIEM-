@@ -1075,7 +1075,7 @@ tar: Exiting with failure status due to previous errors
 [sudo] password for kali: 
 Error: already installed at: /opt/Elastic/Agent
 For help, please see our troubleshooting guide at https://www.elastic.co/guide/en/fleet/8.12/fleet-troubleshooting.html
-                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                      //verify that everything is properly configured                      
 ┌──(kali㉿kali)-[~/elastic-agent-8.12.2-linux-x86_64]
 └─$ sudo systemctl status elastic-agent.service
 ● elastic-agent.service - Elastic Agent is a unified agent to observe, monitor and protect your system.
