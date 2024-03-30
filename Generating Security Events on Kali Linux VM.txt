@@ -1,0 +1,38 @@
+┌──(kali㉿kali)-[~]
+└─$ sudo su
+[sudo] password for kali: 
+┌──(root㉿kali)-[/home/kali]
+└─# nmap -sT 10.0.2.15
+Starting Nmap 7.93 ( https://nmap.org ) at 2024-03-30 04:21 EDT
+Nmap scan report for 10.0.2.15
+Host is up (0.00027s latency).
+All 1000 scanned ports on 10.0.2.15 are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.15 seconds
+                                                                                                                                                                                                                                           
+┌──(root㉿kali)-[/home/kali]
+└─# nmap -A -p- 10.0.2.15
+Starting Nmap 7.93 ( https://nmap.org ) at 2024-03-30 04:22 EDT
+Nmap scan report for 10.0.2.15
+Host is up (0.00040s latency).
+All 65535 scanned ports on 10.0.2.15 are in ignored states.
+Not shown: 65535 closed tcp ports (reset)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 3.20 seconds
+                                                                                                                                                                                                                                           
+┌──(root㉿kali)-[/home/kali]
+└─# nmap -p- localhost   
+Starting Nmap 7.93 ( https://nmap.org ) at 2024-03-30 04:22 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0000020s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 65533 closed tcp ports (reset)
+PORT     STATE SERVICE
+6789/tcp open  ibm-db2-admin
+6791/tcp open  hnm
+
+Nmap done: 1 IP address (1 host up) scanned in 0.72 seconds
